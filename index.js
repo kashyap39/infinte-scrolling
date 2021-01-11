@@ -50,7 +50,6 @@ window.addEventListener('scroll', () => {
       clientHeight
   } = document.documentElement;
   if (scrollTop + clientHeight >= scrollHeight-5) {
-    console.log("bottom");
       page++;
       if(page*limit<=115)
       loadQuotes(page);
