@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 body{
   background-color:black;  
 }
@@ -7,8 +9,9 @@ blockquote{
 }
 footer{
     text-align: right;
-    font-size: small;
+    font-size:25px;
     color: grey;
+    font-family: 'East Sea Dokdo', cursive;
 }
 .list{
     color:white;
@@ -17,7 +20,8 @@ h1{
     text-align: center;
     color: white;
     font-size: 40px;
-    font-family:monospace;
+    font-family: 'Yusei Magic', sans-serif;
+    letter-spacing: 3px;
 }
 .list{
     height:auto;
